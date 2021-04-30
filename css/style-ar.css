@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Tajawal';
+
+.package-content h3 {
+	float: right;
+}
+.package-days {
+  float: none;
+	margin: 3px 0 10px 0;
+}
+
+body {
+	font-family: 'Tajawal';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Tajawal';
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=password],
+input[type=tel],
+input[type=date],
+textarea,
+select,
+.form-control {
+	font-family: 'Tajawal';
+}
+
+@media (max-width: 991px) {
+	.dropdown-menu {
+		left: -100%;
+	}
+}
